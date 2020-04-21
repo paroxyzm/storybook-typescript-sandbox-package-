@@ -5,7 +5,7 @@ export interface IProps {
   onClick?: (color: string) => void
 }
 
-export default (props: IProps) => {
+export const ColorButton = (props: IProps) => {
   const { color, onClick } = props;
   return <button style={ { color } } onClick={ () => onClick && onClick(color) }>Color Button</button>;
 }
