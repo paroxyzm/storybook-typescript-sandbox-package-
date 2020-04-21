@@ -9,10 +9,7 @@ export const ColorButton = (props: Props): JSX.Element => {
     const { color, onClick } = props;
 
     return (
-        <button
-            style={ { color } }
-            onClick={() => onClick?.(color)}
-        >
+        <button style={{ color }} onClick={() => onClick?.(color)}>
             Color Button
         </button>
     );
