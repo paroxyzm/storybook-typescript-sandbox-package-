@@ -1,5 +1,5 @@
 {
-  "name": "cra-typescript-storybook",
+  "name": "storybook-typescript-sandbox-package",
   "version": "0.1.0",
   "description": "This is a testing repo/package for storybook for react in typescript",
   "main": "lib/index.js",
@@ -43,6 +43,14 @@
   ],
   "author": "lmi",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paroxyzm/storybook-typescript-sandbox-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paroxyzm/storybook-typescript-sandbox-package/issues"
+  },
+  "homepage": "https://github.com/paroxyzm/storybook-typescript-sandbox-package",
   "browserslist": {
     "production": [
       ">0.2%",
