@@ -7,11 +7,5 @@ export interface Props {
 export const ColorInput = (props: Props) => {
     const { color } = props;
 
-    return (
-        <input
-            type="text"
-            value={color}
-            style={ { backgroundColor: color } }
-        />
-    );
+    return <input type="text" value={color} style={{ backgroundColor: color }} />;
 };
