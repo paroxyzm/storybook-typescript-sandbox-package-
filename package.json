@@ -18,10 +18,9 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "test": "react-scripts test",
+    "start": "npm run storybook",
+    "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "build-cra": "react-scripts build",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
@@ -65,6 +64,7 @@
   },
   "devDependencies": {
     "@storybook/react": "^5.3.18",
-    "@types/storybook__react": "^5.2.1"
+    "@types/storybook__react": "^5.2.1",
+    "ts-jest": "^25.4.0"
   }
 }
