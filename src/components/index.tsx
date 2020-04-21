@@ -1,1 +1,5 @@
-export * from './ColorButton';
+import ColorButton from './ColorButton';
+
+export {
+  ColorButton
+};
