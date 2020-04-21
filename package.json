@@ -1,6 +1,6 @@
 {
   "name": "storybook-typescript-sandbox-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a testing repo/package for storybook for react in typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,7 +8,7 @@
     "start": "npm run storybook",
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write src/**/*.ts",
+    "format": "prettier --write src/**/*.tsx",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
