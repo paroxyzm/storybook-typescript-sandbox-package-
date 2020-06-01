@@ -1,6 +1,6 @@
 {
   "name": "storybook-typescript-sandbox-package",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This is a testing repo/package for storybook for react in typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,8 +13,7 @@
     "build-storybook": "build-storybook -s public",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
-    "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+    "version": "git add -A src"
   },
   "files": [
     "lib/**/*"
