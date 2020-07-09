@@ -1,6 +1,6 @@
 {
   "name": "storybook-typescript-sandbox-package",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "This is a testing repo/package for storybook for react in typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
